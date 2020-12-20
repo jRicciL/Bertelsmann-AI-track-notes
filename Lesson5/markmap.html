@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  padding: 10px;
+  background-color: #333333;
+}
+footer {
+  bottom: 0;
+  position: sticky;
+  background-color: white;
+  padding: 5px;
+  width: 200px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 1.8em
+}
+h2 {
+	font-family: "Sofia", sans-serif;
+	color: #D1AE61;
+	font-size: 1.2em
+}
+#mindmap {
+  top: 120;
+  display: block;
+  width: 100vw;
+  height: 85vh;
+}
+#mindmap > g > g:nth-child(67) > foreignObject > div {
+
+	overflow: visible;
+}
+</style>
+
+</head>
+<header>
+	<h1>Measuring Impact and Updating Models</h1>
+	<h2>Case study: Video Annotation</h2>
+</header>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script>((e,t)=>{const{Markmap:r}=e();window.mm=r.create("svg#mindmap",null,t)})(()=>window.markmap,{"t":"heading","d":1,"p":{},"v":"<strong>AI Product<br>Development</strong>","c":[{"t":"bullet_list","d":2,"p":{},"v":"","c":[{"t":"list_item","d":3,"p":{},"v":"The process to release a AI product"}]},{"t":"heading","d":2,"p":{},"v":"3 (4) easy steps","c":[{"t":"list_item","d":4,"p":{"index":1},"v":"1. <strong>Identify the business problem<br>\n&amp; Ideate a solution</strong>","c":[{"t":"list_item","d":6,"p":{},"v":"Product Discovery starts with problems","c":[{"t":"list_item","d":8,"p":{},"v":"Problem make ideas easy<br>\nand plentiful and cheap"},{"t":"list_item","d":8,"p":{},"v":"Your team will help you -<br>\n<em>Tbring them everywhere!</em>T"},{"t":"list_item","d":8,"p":{},"v":"There will be so many ideas"}]},{"t":"list_item","d":6,"p":{},"v":"Case study: Video Annotation"}]},{"t":"list_item","d":4,"p":{"index":2},"v":"2. <strong>Real-Data Prototype</strong>","c":[{"t":"list_item","d":6,"p":{},"v":"Impact vs. time","c":[{"t":"list_item","d":8,"p":{},"v":"Even Small improvements<br>\ncan have huge business impact"}]},{"t":"list_item","d":6,"p":{},"v":"Prototypes and more:","c":[{"t":"list_item","d":8,"p":{},"v":"<strong>Wireframe</strong>:<br>\nstructure and functional<br>\nrequirements (static)"},{"t":"list_item","d":8,"p":{},"v":"<strong>Mockup</strong>:<br>\na wireframe, but with<br>\nvisual design (static)"},{"t":"list_item","d":8,"p":{},"v":"<strong>Prototype</strong>:<br>\na mockup, but with<br>\ninteractions (dynamic)"}]}]},{"t":"list_item","d":4,"p":{"index":3},"v":"3. <strong>Test, Refine -&gt; Final Product</strong>","c":[{"t":"list_item","d":6,"p":{},"v":"<em>Test, test, test...</em>","c":[{"t":"list_item","d":8,"p":{},"v":"A/B testing"},{"t":"list_item","d":8,"p":{},"v":"Different versions<br>\nof the used tools"},{"t":"list_item","d":8,"p":{},"v":"Different sets<br>\nof costumers data"}]},{"t":"list_item","d":6,"p":{},"v":"The final prototype =&gt; Final product","c":[{"t":"list_item","d":8,"p":{},"v":"Iterate over the prototype"}]}]},{"t":"list_item","d":4,"p":{"index":4},"v":"4. <strong>Release, Measure and Update</strong>","c":[{"t":"list_item","d":6,"p":{"index":1},"v":"1. Build the Product","c":[{"t":"list_item","d":8,"p":{},"v":"Translate requirements and<br>\ndo any operational or security updates"},{"t":"list_item","d":8,"p":{},"v":"Instrument updates to =&gt;<br>\nMeasure impact and changes"},{"t":"list_item","d":8,"p":{},"v":"Get it out as quickly as possible"}]},{"t":"list_item","d":6,"p":{"index":2},"v":"2. Launch the product","c":[{"t":"list_item","d":8,"p":{},"v":"Use the metrics from test to =&gt;<br>\nHelp marketing"},{"t":"list_item","d":8,"p":{},"v":"Get help from previously upset customers"}]},{"t":"list_item","d":6,"p":{"index":3},"v":"3. React to new information:","c":[{"t":"list_item","d":8,"p":{},"v":"Repeat the process -<br>\nbut smaller and more quickly"}]}]}]}]})</script>
+</body>
+<footer>
+Joel Ricci. 2020
+</footer>
+</html>
