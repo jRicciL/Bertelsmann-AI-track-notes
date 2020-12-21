@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "0caffe939ee65cf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "25392c88c13298c3",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab9589382ed1a9d5",
+            "type": "leaf",
+            "dimension": 26.17801047120419,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project 3.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "a4f78983e91f1cce",
+            "type": "leaf",
+            "dimension": 73.82198952879581,
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "348f8d5ce471c8d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "10ba1afd04cc52de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd4d19d3629ed80c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c8c7994e9afe3e49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c58b4f98c19fd263",
+    "type": "split",
+    "children": [
+      {
+        "id": "da5f10a9f0af106d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7f7cd821100d662",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Project 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Project 3.md",
+    "Untitled.md"
+  ]
+}
